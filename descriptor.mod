@@ -1,0 +1,10 @@
+version="1.16.10"
+tags={
+	"Historical"
+	"Map"
+	"Balance"
+	"Ideologies"
+	"Translation"
+}
+name="DR1946"
+supported_version="1.16.10"

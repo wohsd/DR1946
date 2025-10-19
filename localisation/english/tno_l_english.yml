@@ -1,0 +1,68 @@
+﻿l_english:
+#Misc
+ antarctica: "Antarctica" #Continent
+ antarctica_adj: "Antarctic"
+ VICTORY_POINTS_17744: " " #blank name
+ wasteland_focus: "Wasteland Focus Tree"
+
+#States
+ EAST_ANTARCTICA: "East Antarctica"
+ ANTARCTIC_PENINSULA: "Antarctic Peninsula"
+ ENG_ANTARCTIC_PENINSULA: "Graham Land"
+ CHL_ANTARCTIC_PENINSULA: "O'Higgins Land"
+ ARG_ANTARCTIC_PENINSULA: "Tierra de San Martin"
+ USA_ANTARCTIC_PENINSULA: "Palmer Peninsula"
+ ALEXANDER_ISLAND: "Alexander Island"
+ ADELIE_LAND: "Adelie Land"
+ FRA_ADELIE_LAND: "Terre Adélie"
+ VICTORIA_LAND: "Oates Land" #was Victoria Land
+ GEORGE_VI_SOUND: "George VI Sound"
+ EAST_ELLSWORTH_LAND: "East Ellsworth Land"
+ WEST_ELLSWORTH_LAND: "West Ellsworth Land"
+ MARIE_BYRD_LAND: "Marie Byrd Land"
+ ROSS_DEPENDENCY: "Ross Dependency"
+ QUEEN_MAUD_LAND: "Queen Maud Land"
+ NOR_QUEEN_MAUD_LAND: "Dronning Maud Land"
+ GER_QUEEN_MAUD_LAND: "Neuschwabenland"
+ WILKES_LAND: "Wilkes Land"
+ PRINCESS_ELIZABETH_LAND: "Princess Elizabeth Land"
+ WEST_ANTARCTICA: "West Antarctica"
+ RONNE_ICE_SHELF: "Ronne Ice Shelf"
+ COATS_LAND: "Coats Land"
+ BRUNT_ICE_SHELF: "Brunt Ice Shelf"
+ PRINCESS_MARTHA_COAST: "Princess Martha Coast"
+ AMSTERDAM_ISLAND: "St. Paul and Amsterdam Islands"
+ FRA_AMSTERDAM_ISLAND: "Îles Saint-Paul et Amsterdam"
+ SVALBARD: "Svalbard"
+ GER_SVALBARD: "Spitzbergen"
+ BOUVET_ISLAND: "Bouvet Island"
+ TRISTAN_DA_CUNHA: "Tristan da Cunha"
+ WALLIS_AND_FUTUNA: "Wallis and Futuna"
+ MARQUESAS_ISLANDS: "Marquesas Islands"
+ CLIPPERTON_ISLAND: "Clipperton Island"
+ COOK_ISLANDS: "Cook Islands"
+ PETER_I_ISLAND: "Peter I Island"
+ PALMER_LAND: "Palmer Land"
+
+#Strategic Regions
+ SCOTIA_SEA: "Scotia Sea"
+ ROSS_SEA: "Ross Sea"
+ AMUNDSEN_SEA: "Amundsen Sea"
+ WEDDEL_SEA: "Weddel Sea"
+ URVILLE_SEA: "D'Urville Sea"
+ DAVIS_SEA: "Davis Sea"
+ HAAKON_VII_SEA: "Haakon VII Sea"
+ KARA_SEA: "Kara Sea"
+ BEAUFORT_SEA: "Beaufort Sea"
+ EAST_SIBERIAN_SEA: "East Siberian Sea"
+ NORTHWEST_PASSAGES: "Northwest Passages"
+ ANTARCTICA: "Antarctica"
+
+#Antarctica Country
+ ZZZ_Antarctic_Anarchy: "Antarctic Wastes"
+ ZZZ_Antarctic_Anarchy_desc: "What little life exists in Antarctica tends to stick to the shores, where the sea provides at least some succor to their bleak lives. The closer one approaches the frozen continent's dark heart, the more inhospitable the terrain becomes. Razor sharp sastrugi, bottomless crevasses, and snow blindness all contest the existence of life. Only the newly arrived humans would be so foolish as to venture into such a place." #\n\nThe skies glare barren blue down upon these icebound fields, devoid of precipitation, as cold as the grave. Here lies the Earth's largest and most dangerous desert. Worse still, the winters here are harsher than any other: a vast all-consuming void, inky darkness presided over by distant stars. Temperatures average at negative 50 degrees Celsius exacerbated by winds that could flay a flesh bound body to shreds. As humanity stands upon the brink of nuclear annihilation, these wastes are a premonition of what world might await those unfortunate survivors of such a calamity.\n\n§QAn eternal black winter, oblivion made manifest.§!
+ ZZZ_hidden: "$ZZZ_Antarctic_Anarchy$"
+ ZZZ_no_authority: "No Authority"
+ ZZZ: ""
+ ZZZ_DEF: "Antarctica"
+ ZZZ_ADJ: "Antarctic"

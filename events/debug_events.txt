@@ -1,6 +1,7 @@
 ﻿
 add_namespace = generic_debug
 add_namespace = fra
+add_namespace = vin
 news_event = {
 	id = fra.1
 	title = fra.1.t
@@ -10,6 +11,17 @@ news_event = {
 	fire_only_once = yes
 	option = {
 		name = fra.1.a
+	}
+}
+news_event = {
+	id = vin.1
+	title = vin.1.t
+	desc = vin.1.d
+	picture = GFX_vin_newsevent
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = vin.1.a
 	}
 }
 

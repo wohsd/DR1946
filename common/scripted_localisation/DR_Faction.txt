@@ -3,23 +3,23 @@
 defined_text = { 
 	name = GetGovernment
 	text = {
-		 localization_key = Reformism_desc
-    trigger = {
-	 has_government = Reformism
+		localization_key = Reformism_desc
+    	trigger = {
+	 		has_government = Reformism
+		}
 	}
-}
     text = {
-		 localization_key = Revolutionism_desc
-    trigger = {
-	 has_government = Revolutionism
-}
-}
+		localization_key = Revolutionism_desc
+		trigger = {
+		has_government = Revolutionism
+		}
+	}
     text = {
-		 localization_key = Conservatism_desc
-    trigger = {
-	 has_government = Conservatism
-}
-} 
+		localization_key = Conservatism_desc
+		trigger = {
+			has_government = Conservatism
+		}
+	} 
     text = {
 		 localization_key = Liberalism_desc
     trigger = {

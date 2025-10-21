@@ -11,6 +11,8 @@ state={
 
 	history={
 		owner = MON
+		add_claim_by = CHI
+		add_claim_by = RUS
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -20,7 +22,6 @@ state={
 			10627 3
 		}
 		add_core_of = MON
-		add_core_of = RUS
 	}
 
 	provinces={

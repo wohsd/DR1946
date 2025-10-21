@@ -32,14 +32,6 @@ state={
 
 		}
 
-	####
-		1938.10.25 = {
-			JAP = {
-				set_province_controller = 3427
-			}
-		}
-	####
-
 	}
 
 	provinces={

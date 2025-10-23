@@ -1095,6 +1095,9 @@ KUR = {
 	color = rgb { 234 179 30 }
 	color_ui = rgb { 255 153 0 }	
 }
-
+SKK = {
+	color = rgb { 255 245 107 }
+	color_ui = rgb { 255 245 107 }
+}
 
 

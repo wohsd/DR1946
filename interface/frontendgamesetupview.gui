@@ -9,17 +9,17 @@ guiTypes = {
 	### bookmark entry
 	containerWindowType = {
 		name = "bookmark_entry"
-		position = { x= 0 y = 0 }
+		position = { x= 130 y = 0 }
 		size = { width=232 height=211}
 		clipping = no
 		fade_time = 500
 		fade_type = linear
 
-		background = {
-			name = "background"
-			quadTextureSprite = "GFX_bookmark_entry_bg"
-			clicksound = click_checkbox
-		}
+		#background = {
+			#name = "background"
+			#quadTextureSprite = "GFX_bookmark_entry_bg"
+			#clicksound = click_checkbox
+		#}
 
 		iconType = {
 			name = "icon"
@@ -28,17 +28,17 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		instantTextBoxType = {
-			name = "date"
-			position = { x = 22 y = 147 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			text = "FE_BOOKMARK_DATE"
-			maxWidth = 185
-			maxHeight = 20
-			fixedsize = yes
-			format = centre
-		}
+		#instantTextBoxType = {
+		#	name = "date"
+		#	position = { x = 22 y = 147 }
+		#	font = "dr_font_21"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "FE_BOOKMARK_DATE"
+		#	maxWidth = 185
+		#	maxHeight = 20
+		#	fixedsize = yes
+		#	format = centre
+		#}
 	}
 
 	containerWindowType = {
@@ -511,9 +511,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 120 y = 14 }
+			position = { x = 120 y = 37 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "dr_font_16"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_SCENARIO"
 			maxWidth = 340
@@ -535,7 +535,7 @@ guiTypes = {
 				name ="bookmarks_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 260 height = 0 }
+				slotsize = { width = 1260 height = 0 }
 				add_horizontal = yes
 				max_slots_vertical = 1
 				format = "UPPER_LEFT"
@@ -544,8 +544,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 110 y = 274 }
-			font = "hoi_20b"
+			position = { x = 120 y = 266 }
+			font = "dr_font_16"
 			borderSize = {x = 0 y = 0}
 			text = "BM_HISTORY_TITLE"
 			maxWidth = 340
@@ -556,7 +556,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "bookmark_title"
 			position = { x = 25 y = 305 }
-			font = "hoi4_typewriter22"
+			font = "dr_font_16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
 			maxHeight = 30
@@ -575,10 +575,10 @@ guiTypes = {
 
 		ButtonType = {
 			name = "back_button"
-			position = { x = 30 y = -57 }
-			quadTextureSprite ="GFX_button_221x34"
+			position = { x = 0 y = -57 }
+			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "BACK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "dr_font_21"
 			Orientation = "LOWER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
@@ -587,10 +587,10 @@ guiTypes = {
 
 		ButtonType = {
 			name = "select_button"
-			position = { x = -252 y = -57 }
-			quadTextureSprite ="GFX_button_221x34"
+			position = { x = -172 y = -57 }
+			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_SCENARIO"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "dr_font_21"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click_ok
 			oversound = ui_menu_over

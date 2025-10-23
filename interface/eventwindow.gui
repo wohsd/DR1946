@@ -68,11 +68,11 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 31 y = 0 }
+				position = { x = 33 y = 0 }
 				font = "dr_font_16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 512
+				maxWidth = 532
 				maxHeight = 230
 				format = left
 			}	

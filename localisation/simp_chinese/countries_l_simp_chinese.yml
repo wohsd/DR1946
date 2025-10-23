@@ -13,6 +13,72 @@
  RUS_DEF:0 "俄罗斯帝国"
  RUS_ADJ:0 "俄罗斯帝国"
 
+ ISR:0 "大以色列国"
+ ISR_DEF:0 "大以色列国"
+ ISR_ADJ:0 "大以色列国"
+
+
+ ALG:0 "阿尔及利亚国"
+ ALG_DEF:0 "阿尔及利亚国"
+ ALG_ADJ:0 "阿尔及利亚国"
+
+ TUN:0 "突尼斯国"
+ TUN_DEF:0 "突尼斯国"
+ TUN_ADJ:0 "突尼斯国"
+
+ COG:0 "刚果总督府"
+ COG_DEF:0 "刚果总督府"
+ COG_ADJ:0 "刚果总督府"
+
+ ZIM:0 "罗德西亚"
+ ZIM_DEF:0 "罗德西亚"
+ ZIM_ADJ:0 "罗德西亚"
+
+ ZAM:0 "赞比亚"
+ ZAM_DEF:0 "赞比亚"
+ ZAM_ADJ:0 "赞比亚"
+
+ MAD:0 "马达加斯加"
+ MAD_DEF:0 "马达加斯加"
+ MAD_ADJ:0 "马达加斯加"
+
+ UGA:0 "乌干达"
+ UGA_DEF:0 "乌干达"
+ UGA_ADJ:0 "乌干达"
+
+ IRQ:0 "伊拉克王国"
+ IRQ_DEF:0 "伊拉克王国"
+ IRQ_ADJ:0 "伊拉克王国"
+
+ SYR:0 "叙利亚总督辖区"
+ SYR_DEF:0 "叙利亚总督辖区"
+ SYR_ADJ:0 "叙利亚总督辖区"
+
+ MAL:0 "马来西亚"
+ MAL_DEF:0 "马来西亚"
+ MAL_ADJ:0 "马来西亚"
+
+ OMA:0 "阿曼"
+ OMA_DEF:0 "阿曼"
+ OMA_ADJ:0 "阿曼"
+
+ LBA:0 "利比亚共和国"
+ LBA_DEF:0 "利比亚共和国"
+ LBA_ADJ:0 "利比亚共和国"
+
+ JOR:0 "外约旦王国"
+ JOR_DEF:0 "外约旦王国"
+ JOR_ADJ:0 "外约旦王国"
+
+ ASY:0 "亚述国"
+ ASY_DEF:0 "亚述国"
+ ASY_ADJ:0 "亚述国"
+
+ ARM:0 "亚美尼亚王国"
+ ARM_DEF:0 "亚美尼亚王国"
+ ARM_ADJ:0 "亚美尼亚王国"
+
+
  CAN:0 "加拿大联邦"
  CAN_DEF:0 "加拿大联邦"
  CAN_ADJ:0 "加拿大联邦"
@@ -41,9 +107,9 @@
  YUG_DEF:0 "塞尔维亚王国"
  YUG_ADJ:0 "塞尔维亚王国"
 
- HUN:0 "匈牙利王国"
- HUN_DEF:0 "匈牙利王国"
- HUN_ADJ:0 "匈牙利王国"
+ HUN:0 "匈牙利民主共和国"
+ HUN_DEF:0 "匈牙利民主共和国"
+ HUN_ADJ:0 "匈牙利民主共和国"
 
  CHI:0 "中华民国"
  CHI_DEF:0 "中华民国"
@@ -167,9 +233,9 @@
  SAF_DEF:0 "南非联邦"
  SAF_ADJ:0 "南非联邦"
 
- RAJ:0 "英属印度"
- RAJ_DEF:0 "英属印度"
- RAJ_ADJ:0 "英属印度"
+ RAJ:0 "印度共和国"
+ RAJ_DEF:0 "印度共和国"
+ RAJ_ADJ:0 "印度共和国"
 
  PHI:0 "菲律宾共和国"
  PHI_DEF:0 "菲律宾共和国"
@@ -194,3 +260,15 @@
  POR:0 "葡萄牙共和国"
  POR_DEF:0 "葡萄牙共和国"
  POR_ADJ:0 "葡萄牙共和国"
+
+ SKK:0 "锡金王国"
+ SKK_DEF:0 "锡金王国"
+ SKK_ADJ:0 "锡金王国"
+
+ BHU:0 "不丹王国"
+ BHU_DEF:0 "不丹王国"
+ BHU_ADJ:0 "不丹王国"
+
+ NEP:0 "尼泊尔王国"
+ NEP_DEF:0 "尼泊尔王国"
+ NEP_ADJ:0 "尼泊尔王国"

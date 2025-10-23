@@ -92,8 +92,8 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=200 y =570}
-		size = { width = 320 height = 355 }
+		position = { x=50 y =790}
+		size = { width = 320 height = 215 }
 		Orientation = UPPER_LEFT
 		Origo = LOWER_LEFT
 				
@@ -189,8 +189,8 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=200 y =590}
-		size = { width = 320 height = 355 }
+		position = { x=50 y =790}
+		size = { width = 320 height = 215 }
 		Orientation = UPPER_LEFT
 		Origo = LOWER_LEFT		
 
@@ -208,7 +208,7 @@ guiTypes = {
 			name = "single_player_button"
 			position = { x = 16 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			font = "dr_font_21"			
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
@@ -218,7 +218,7 @@ guiTypes = {
 			name = "multi_player_button"
 			position = { x = 16 y = 58}
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			font = "dr_font_21"			
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -255,7 +255,7 @@ guiTypes = {
 			position = { x = 16 y = 98 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "OPTIONS"
-			buttonFont = "hoi_24header"
+			buttonFont = "dr_font_21"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -265,7 +265,7 @@ guiTypes = {
 			position = { x = 16 y = 138 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "MENU_BAR_CAREER_PROFILE"
-			buttonFont = "hoi_24header"
+			buttonFont = "dr_font_21"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -284,7 +284,7 @@ guiTypes = {
 			position = { x = 16 y = 178 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "MENU_BAR_FRIENDS"
-			buttonFont = "hoi_24header"
+			buttonFont = "dr_font_21"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -294,7 +294,7 @@ guiTypes = {
 			position = {  x = 16 y = 218 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CREDITS"
-			buttonFont = "hoi_24header"
+			buttonFont = "dr_font_21"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -304,14 +304,14 @@ guiTypes = {
 			position = { x = 16 y = 258 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
-			buttonFont = "hoi_24header"
+			buttonFont = "dr_font_21"
 		}
 
 		ButtonType = {
 			name = "exit_button"
 			position = { x = 16 y = 300 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			font = "dr_font_21"			
 			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over

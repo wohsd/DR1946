@@ -1,12 +1,9 @@
 ﻿l_simp_chinese:
 
- AUS:0 "德意志合众国"
- AUS_DEF:0 "德意志合众国"
- AUS_ADJ:0 "德意志合众国"
+ GER:0 "德意志合众国"
+ GER_DEF:0 "德意志合众国"
+ GER_ADJ:0 "德意志合众国"
 
- GER:0 "普鲁士王国"
- GER_DEF:0 "普鲁士王国"
- GER_ADJ:0 "普鲁士王国"
 
 
  RUS:0 "俄罗斯帝国"
@@ -272,3 +269,179 @@
  NEP:0 "尼泊尔王国"
  NEP_DEF:0 "尼泊尔王国"
  NEP_ADJ:0 "尼泊尔王国"
+
+ SOM:0 "索马里兰"
+ SOM_DEF:0 "索马里兰"
+ SOM_ADJ:0 "索马里兰"
+
+ SOM:0 "索马里兰"
+ SOM_DEF:0 "索马里兰"
+ SOM_ADJ:0 "索马里兰"
+
+ BOT: "博茨瓦纳"
+ BOT_DEF: "博茨瓦纳"
+ BOT_ADJ: "博茨瓦纳"
+
+ GAB: "加蓬"
+ GAB_DEF: "加蓬"
+ GAB_ADJ: "加蓬"
+
+ RCG: "刚果"
+ RCG_DEF: "刚果"
+ RCG_ADJ: "刚果"
+
+ CAR: "中非共和国"
+ CAR_DEF: "中非共和国"
+ CAR_ADJ: "中非"
+
+ CMR: "喀麦隆"
+ CMR_DEF: "喀麦隆"
+ CMR_ADJ: "喀麦隆"
+
+ CHA: "乍得"
+ CHA_DEF: "乍得"
+ CHA_ADJ: "乍得"
+
+ DAH: "贝宁"
+ DAH_DEF: "贝宁"
+ DAH_ADJ: "贝宁"
+
+ IVO: "科特迪瓦"
+ IVO_DEF: "科特迪瓦"
+ IVO_ADJ: "象牙海岸"
+
+ VOL: "上沃尔特"
+ VOL_DEF: "上沃尔特"
+ VOL_ADJ: "上沃尔特"
+
+ GNA: "几内亚"
+ GNA_DEF: "几内亚"
+ GNA_ADJ: "几内亚"
+
+ KEN: "肯尼亚"
+ KEN_DEF: "肯尼亚"
+ KEN_ADJ: "肯尼亚"
+
+ TZN: "坦桑尼亚"
+ TZN_DEF: "坦桑尼亚"
+ TZN_ADJ: "坦桑尼亚"
+
+ MEX: "墨西哥"
+ MEX_DEF: "墨西哥"
+ MEX_ADJ: "墨西哥"
+
+ BRA: "巴西"
+ BRA_DEF: "巴西"
+ BRA_ADJ: "巴西"
+
+ ARG: "阿根廷"
+ ARG_DEF: "阿根廷"
+ ARG_ADJ: "阿根廷"
+
+ CHL: "智利"
+ CHL_DEF: "智利"
+ CHL_ADJ: "智利"
+
+ BOL: "玻利维亚"
+ BOL_DEF: "玻利维亚"
+ BOL_ADJ: "玻利维亚"
+
+ PRU: "秘鲁"
+ PRU_DEF: "秘鲁"
+ PRU_ADJ: "秘鲁"
+
+ COL: "哥伦比亚"
+ COL_DEF: "哥伦比亚"
+ COL_ADJ: "哥伦比亚"
+
+ VEN: "委内瑞拉"
+ VEN_DEF: "委内瑞拉"
+ VEN_ADJ: "委内瑞拉"
+
+ ECU: "厄瓜多尔"
+ ECU_DEF: "厄瓜多尔"
+ ECU_ADJ: "厄瓜多尔"
+
+ PAR: "巴拉圭"
+ PAR_DEF: "巴拉圭"
+ PAR_ADJ: "巴拉圭"
+
+ URG: "乌拉圭"
+ URG_DEF: "乌拉圭"
+ URG_ADJ: "乌拉圭"
+
+ GUA: "危地马拉"
+ GUA_DEF: "危地马拉"
+ GUA_ADJ: "危地马拉"
+
+ HON: "洪都拉斯"
+ HON_DEF: "洪都拉斯"
+ HON_ADJ: "洪都拉斯"
+
+ ELS: "萨尔瓦多"
+ ELS_DEF: "萨尔瓦多"
+ ELS_ADJ: "萨尔瓦多"
+
+ NIC: "尼加拉瓜"
+ NIC_DEF: "尼加拉瓜"
+ NIC_ADJ: "尼加拉瓜"
+
+ COS: "哥斯达黎加"
+ COS_DEF: "哥斯达黎加"
+ COS_ADJ: "哥斯达黎加"
+
+ PAN: "巴拿马"
+ PAN_DEF: "巴拿马"
+ PAN_ADJ: "巴拿马"
+
+ DOM: "多米尼加"
+ DOM_DEF: "多米尼加"
+ DOM_ADJ: "多米尼加"
+
+ HAI: "海地"
+ HAI_DEF: "海地"
+ HAI_ADJ: "海地"
+
+ CUB: "古巴"
+ CUB_DEF: "古巴"
+ CUB_ADJ: "古巴"
+
+ MLW: "马拉维"
+ MLW_DEF: "马拉维"
+ MLW_ADJ: "马拉维"
+
+ LIB: "利比里亚"
+ LIB_DEF: "利比里亚"
+ LIB_ADJ: "利比里亚"
+
+ TOG: "多哥"
+ TOG_DEF: "多哥"
+ TOG_ADJ: "多哥"
+
+ NGA: "尼日利亚"
+ NGA_DEF: "尼日利亚"
+ NGA_ADJ: "尼日利亚"
+
+ NGR: "尼日尔"
+ NGR_DEF: "尼日尔"
+ NGR_ADJ: "尼日尔"
+
+ MLI: "马里"
+ MLI_DEF: "马里"
+ MLI_ADJ: "马里"
+
+ MRT: "毛里塔尼亚"
+ MRT_DEF: "毛里塔尼亚"
+ MRT_ADJ: "毛里塔尼亚"
+
+ SEN: "塞内加尔"
+ SEN_DEF: "塞内加尔"
+ SEN_ADJ: "塞内加尔"
+
+ KUW: "科威特"
+ KUW_DEF: "科威特"
+ KUW_ADJ: "科威特"
+
+ YEM: "也门"
+ YEM_DEF: "也门"
+ YEM_ADJ: "也门"

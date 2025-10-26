@@ -12,8 +12,8 @@ state = {
 
 	history = {
 
-		owner = AUS
-		add_core_of = AUS
+		owner = GER
+		add_core_of = GER
 
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -28,11 +28,6 @@ state = {
 			9665 3
 		}
 
-		1938.3.12 = {
-			owner = AUS
-			controller = AUS
-			add_core_of = AUS
-		}
 	}
 
 	provinces = {

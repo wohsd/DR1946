@@ -23,8 +23,8 @@ state = {
 			11401 3
 		}
 
-		owner = AUS
-		add_core_of = AUS
+		owner = GER
+		add_core_of = GER
 
 		buildings = {
 
@@ -51,12 +51,6 @@ state = {
 				bunker = 1
 			}
 
-		}
-
-		1938.9.30 = {
-			owner = AUS
-			controller = AUS
-			add_core_of = AUS
 		}
 
 	}

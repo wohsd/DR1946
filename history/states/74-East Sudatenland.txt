@@ -7,8 +7,8 @@ state = {
 	
 	history = {
 		
-		owner = AUS
-		add_core_of = AUS
+		owner = GER
+		add_core_of = GER
 
 		buildings = {
 			infrastructure = 4
@@ -23,11 +23,6 @@ state = {
 			3414 2 # Opava
 		}
 
-		1938.9.30 = {
-			owner = AUS
-			controller = AUS
-			add_core_of = AUS
-		}
 	}
 
 	provinces = {

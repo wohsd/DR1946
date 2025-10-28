@@ -1,0 +1,17 @@
+characters = {
+	SIK_WuZhongXing = {
+		name = SIK_WuZhongXing
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIK/SIK_WuZhongXing.png"
+			}
+		}
+		country_leader = {
+			ideology = sanmin-reformism
+			desc = SIK_WuZhongXing_desc
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}
+	

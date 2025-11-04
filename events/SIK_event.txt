@@ -1,6 +1,7 @@
 ﻿
 add_namespace = SIK_newevent
 add_namespace = SIK_countryevent
+
 country_event = {
 	id = SIK_countryevent.1
 	title = SIK_countryevent.1.t
@@ -16,9 +17,9 @@ country_event = {
 	}
 	option = {
 		name = SIK_countryevent.1.a
+
 	}
 }
-
 country_event = {
 	id = SIK_countryevent.2
 	title = SIK_countryevent.2.t

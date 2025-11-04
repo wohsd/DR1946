@@ -1,8 +1,5 @@
-﻿capital = 219
+﻿capital = 7
 
-oob = "SOV_1939_nsb"
-set_air_oob = "SOV_1939_air_bba"
-set_naval_oob = "SOV_1939_naval_mtg"
 
 # Starting tech
 set_technology = {
@@ -77,10 +74,10 @@ set_technology = {
 	basic_heavy_armor_scheme = 1
 }
 
-recruit_character = RUS_Lvan_Alexandrovich_Llyin
+recruit_character = HOL_Willem_Schermerhorn
 
 set_politics = {
-	ruling_party = Conservatism
+	ruling_party = Liberalism
 	last_election = "1918.11.11"
 	election_frequency = 72
 	elections_allowed = no

@@ -13,8 +13,8 @@ state={
 		add_core_of = CHI
 		
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			infrastructure = 2 #was: 5
+			industrial_complex = 1
 		}
 		victory_points = {
 			9958 1 

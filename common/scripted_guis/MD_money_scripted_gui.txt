@@ -1,4 +1,16 @@
-scripted_gui = {
+
+
+
+
+
+
+
+
+
+
+scripted_gui = { 
+	
+
 	# Hides Topbar Money Container
 	hide_money = {
 		context_type = player_context
@@ -391,7 +403,25 @@ scripted_gui = {
 		}
 
 		effects = {
+
+
+			
 			treasury_bg_click = {
+				if = {
+					limit = {
+						OR = {
+							NOT = { has_country_flag = open_economy_list }
+							is_ai = yes
+						}
+					}
+
+					set_country_flag = open_economy_list
+				}
+				else = {
+					clr_country_flag = open_economy_list
+				}
+				jiesuanjingji = yes
+				generate_econ_rankings = yes
 				if = {
 					limit = {
 						OR = {
@@ -405,6 +435,12 @@ scripted_gui = {
 				else = {
 					clr_country_flag = open_economy_screen
 				}
+				income_eco_setup = yes
+				manpower_eco_setup = yes
+				company_eco_setup = yes
+ 
+				army_eco_setup = yes 
+				
 			}
 		}
 	}
@@ -416,7 +452,7 @@ scripted_gui = {
 
 		visible = {
 			ROOT = { NOT = { has_country_flag = hide_money } }
-		}
+		} 
 
 		effects = {
 			#Sell off investments
@@ -1357,16 +1393,7 @@ scripted_gui = {
 			}
 			# This action increases employment in this building type
 			agriculture_district_button_click = {
-				if = {
-					limit = {
-						check_variable = { agriculture_district_employment_var = 1 }
-					}
-				}
-				else = {
-					add_to_variable = { agriculture_district_employment_var = 0.05 }
-					add_political_power = -20
-				}
-				ingame_update_setup = yes
+				manpower_eco_setup=yes
 			}
 
 			## BOTTOM BAR

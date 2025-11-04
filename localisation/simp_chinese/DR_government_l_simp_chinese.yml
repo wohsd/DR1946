@@ -61,3 +61,28 @@
  Market_economy:0 "市场经济"
  Planned_economy:0 "计划经济"
  Mixed_economy:0 "混合经济"
+
+
+
+
+
+
+
+
+
+
+
+
+Economy_TITLE:0 "经济面板" 
+State_eco_tt:0 "地区生产总值" 
+state_eco_DESC:0 "地区生产总值代表着各地的总和，代表了国家从该地区直接获取的、不经过市场循环资产和生产授权。" 
+state_eco_DELAYED_DESC:0 "地区类型带来的收入：\n飞地/极小岛屿/小岛/荒漠§H+0.15%§!\n牧区/乡村地区/发达乡村地区§H+0.25%§!\n稀疏城镇地区/城镇地区/密集城镇地区§H+0.55%§!\n大城市地区§H+0.70%§!\n大都市地区§H+0.90%§!" 
+
+
+manpower_eco_tt:0 "人口生产总值" 
+company_eco_tt:0 "工厂生产总值" 
+income_eco_tt:0 "生产总值(GDP)"
+GDP_capita_tt:0 "人均(GDP)"
+army_eco_tt:0 "陆军支出"
+navy_eco_tt:0 "海军支出"
+air_eco_tt:0 "空军支出"

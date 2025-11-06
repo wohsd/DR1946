@@ -11,6 +11,8 @@ on_actions = {
 
 				GDP_capita = yes
 				generate_econ_rankings = yes
+				GDP_resource_exported = yes
+				GDP_resource_imported = yes 
 			}
 		}
 	}

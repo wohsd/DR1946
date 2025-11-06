@@ -258,3 +258,34 @@ GDP_capita = {
 	}
 }
 
+
+GDP_resource_exported = {  
+	every_country = {
+		set_variable = { temp_resource_exported = 0}
+		add_to_variable = {temp_resource_exported = resource_exported@oil}
+		add_to_variable = {temp_resource_exported = resource_exported@steel}
+		add_to_variable = {temp_resource_exported = resource_exported@aluminium}
+		add_to_variable = {temp_resource_exported = resource_exported@tungsten}
+		add_to_variable = {temp_resource_exported = resource_exported@rubber}
+
+		multiply_variable = { temp_resource_exported = 0.1}
+
+		add_to_variable = { income = temp_resource_exported }
+	}
+}
+
+GDP_resource_imported = {  
+	every_country = {
+		set_variable = { temp_resource_imported = 0}
+		add_to_variable = {temp_resource_imported = resource_imported@oil}
+		add_to_variable = {temp_resource_imported = resource_imported@steel}
+		add_to_variable = {temp_resource_imported = resource_imported@aluminium}
+		add_to_variable = {temp_resource_imported = resource_imported@tungsten}
+		add_to_variable = {temp_resource_imported = resource_imported@rubber}
+
+		multiply_variable = { temp_resource_imported = 0.1}
+
+		subtract_from_variable = { income = temp_resource_imported}
+	}
+}
+ 

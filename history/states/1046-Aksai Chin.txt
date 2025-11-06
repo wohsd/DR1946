@@ -5,7 +5,7 @@ state={
 		 18878 19779 
 	}
 	history={
-		owner = SIK
+		owner = CHI
 		buildings = {
 			infrastructure = 1
 		}

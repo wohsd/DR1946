@@ -33,4 +33,8 @@ add_ideas = {
 	Underlying_investment
 	low_industrialization
 	Local_police
+
+
+
+	JAP_Members_Co_Prosperity_Sphere
 }

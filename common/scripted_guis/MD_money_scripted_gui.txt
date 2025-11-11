@@ -54,7 +54,7 @@ scripted_gui = {
 		} 
 
 		effects = {
-			close_button_click = {
+			close_economy_screen_click = {
 				set_country_flag = hide_money
 			}
 			economy_grid_button_click = {

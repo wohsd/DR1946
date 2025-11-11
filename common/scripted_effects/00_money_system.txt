@@ -143,6 +143,9 @@ income_eco_setup = {
 		add_to_variable = {income=num_company_eco}
 		add_to_variable = {income=weighted_manpower}
 		add_to_variable = {income=state_eco}
+
+		add_to_variable = { income = modifier@GDP_Growth }
+		
 	}
 }
 
@@ -180,14 +183,14 @@ army_eco_setup = {
 		add_to_variable = { all_infantry_eco = super_heavy_armor_eco }
 		add_to_variable = { all_infantry_eco = modern_armor_eco }
 
-		divide_variable  = { all_infantry_eco = 150 }
+		divide_variable  = { all_infantry_eco = 100 }
 
 
 		#海军
 		# 海军舰船统计
 		set_variable = { carrier_eco = 0 }
 		add_to_variable = { carrier_eco = num_ships_with_type@carrier }
-		multiply_variable = { carrier_eco = 0.32 }
+		multiply_variable = { carrier_eco = 0.18 }
 
 		set_variable = { destroyer_eco = 0 }
 		add_to_variable = { destroyer_eco = num_ships_with_type@destroyer }
@@ -203,15 +206,15 @@ army_eco_setup = {
 
 		set_variable = { heavy_cruiser_eco = 0 }
 		add_to_variable = { heavy_cruiser_eco = num_ships_with_type@heavy_cruiser }
-		multiply_variable = { heavy_cruiser_eco = 0.11 }
+		multiply_variable = { heavy_cruiser_eco = 0.09 }
 
 		set_variable = { battle_cruiser_eco = 0 }
 		add_to_variable = { battle_cruiser_eco = num_ships_with_type@battle_cruiser }
-		multiply_variable = { battle_cruiser_eco = 0.15 }
+		multiply_variable = { battle_cruiser_eco = 0.11 }
 
 		set_variable = { battleship_eco = 0 }
 		add_to_variable = { battleship_eco = num_ships_with_type@battleship }
-		multiply_variable = { battleship_eco = 0.23 }
+		multiply_variable = { battleship_eco = 0.14 }
 		
 		#海军总计
 		set_variable = { all_navy_eco = 0 }
@@ -223,13 +226,13 @@ army_eco_setup = {
 		add_to_variable = { all_navy_eco = battle_cruiser_eco }
 		add_to_variable = { all_navy_eco = battleship_eco }
 
-
+		divide_variable  = { all_navy_eco = 1 }
 
 		
 		#空军总计
 		set_variable = { all_air_eco = 0 }
 		add_to_variable = { all_air_eco = num_deployed_planes }
-		divide_variable  = { all_air_eco = 1150 }
+		divide_variable  = { all_air_eco = 1025 }
 
 	}
 }
@@ -255,6 +258,8 @@ GDP_capita = {
 				GDP_capita_eco = 10
 			}
 		}
+		
+		add_to_variable = { GDP_capita_eco = modifier@GDP_avg_Growth }
 	}
 }
 
@@ -271,6 +276,8 @@ GDP_resource_exported = {
 		multiply_variable = { temp_resource_exported = 0.1}
 
 		add_to_variable = { income = temp_resource_exported }
+
+		add_to_variable = { temp_resource_exported = modifier@GDP_resource_exported }
 	}
 }
 
@@ -286,6 +293,8 @@ GDP_resource_imported = {
 		multiply_variable = { temp_resource_imported = 0.1}
 
 		subtract_from_variable = { income = temp_resource_imported}
+
+		add_to_variable = { temp_resource_imported = modifier@GDP_resource_imported }
 	}
 }
  

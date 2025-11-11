@@ -188,7 +188,10 @@ spriteTypes = {
 		name = "GFX_idea_JAP_Showa_Democracy"
 		texturefile = "gfx\interface\ideas\JAP\JAP_Showa_Democracy.png"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_JAP_Members_Co_Prosperity_Sphere"
+		texturefile = "gfx\interface\ideas\JAP\JAP_Members_Co_Prosperity_Sphere.png"
+	}
 }
 
 

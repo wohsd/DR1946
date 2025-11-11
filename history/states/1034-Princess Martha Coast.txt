@@ -6,7 +6,7 @@ state = {
 	state_category = wasteland
 
 	history={
-		owner = AUS
+		owner = GER
 		buildings = {
 			17810 = {
 				naval_base = 1
